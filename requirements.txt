@@ -1,0 +1,16 @@
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+scikit-learn
+statsmodels
+xgboost
+lightgbm
+catboost
+shap
+lime
+optuna
+streamlit
+jupyter
+nbformat
