@@ -1,5 +1,4 @@
-from Heart_Disease_AI.utils import prediction
-import streamlit as st
+from utils import predictionimport streamlit as st
 from utils.prediction import predict_patient
 from utils.history import save_prediction
 from utils.pdf_report import generate_pdf
