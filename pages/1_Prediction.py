@@ -1,4 +1,4 @@
-from utils import predictionimport streamlit as st
+from utils import prediction
 from utils.prediction import predict_patient
 from utils.history import save_prediction
 from utils.pdf_report import generate_pdf
