@@ -7,9 +7,10 @@ st.set_page_config(
 )
 
 import streamlit as st
+col1, col2 = st.columns([1, 4])
 
 with col1:
-    st.image("assets/logo.PNG.jpeg", use_container_width=True)   
+    st.image("assets/logo.PNG.jpeg", use_container_width=True)
     st.title("Heart Disease AI")
     
     st.markdown("---")
