@@ -8,9 +8,8 @@ st.set_page_config(
 
 import streamlit as st
 
-with st.sidebar:
-    # استخدام use_container_width ليأخذ اللوجو العرض المناسب بشكل أنيق
-st.image("assets/logo.PNG.jpeg", use_container_width=True)    
+with col1:
+    st.image("assets/logo.PNG.jpeg", use_container_width=True)   
     st.title("Heart Disease AI")
     
     st.markdown("---")
