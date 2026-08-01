@@ -14,3 +14,4 @@ optuna
 streamlit
 jupyter
 nbformat
+reportlab==4.4.3
