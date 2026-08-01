@@ -8,7 +8,7 @@ st.set_page_config(
 import streamlit as st
 
 with st.sidebar:
-    st.image("Heart_Disease_AI/assets/logo.PNG.jpeg", use_container_width=True)
+    st.image("assets/logo.PNG.jpeg", use_container_width=True)
     
     st.title("Heart Disease AI")
     
