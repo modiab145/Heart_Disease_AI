@@ -8,6 +8,7 @@ from utils.pdf_report import generate_pdf
 
 st.set_page_config(
     page_title="Prediction",
+    page_icon="❤️",
     layout="wide"
 )
 
