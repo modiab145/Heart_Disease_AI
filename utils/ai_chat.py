@@ -1,15 +1,13 @@
 from groq import Groq
 import streamlit as st
-
-from dotenv import load_dotenv
 import os
-from groq import Groq
 
-load_dotenv()
+api_key = st.secrets.get("GROQ_API_KEY") or os.getenv("GROQ_API_KEY")
 
-client = Groq(
-    api_key=os.getenv("GROQ_API_KEY")
-)
+st.write("API Found:", api_key is not None)
+
+client = Groq(api_key=api_key)
+
 
 SYSTEM_PROMPT = """
 You are an expert medical AI assistant specialized in cardiovascular diseases.
